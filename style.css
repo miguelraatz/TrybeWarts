@@ -1,0 +1,192 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Montserrat, sans-serif;
+  color: white;
+}
+
+body {
+  background-image: url('./images/wallpaper');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+header {
+  display: flex;
+  background-color: rgb(50, 167, 145);
+  justify-content: space-between;
+  height: 100px;
+  align-items: center;
+  margin-bottom: 50px;
+  opacity: 0.9;
+}
+
+header img {
+  padding: 10px;
+  width: 100px;
+}
+
+.trybewarts-login {
+  display: flex;
+  height: 30px;
+  margin-right: 10px;
+}
+
+#e-mail {
+  margin-right: 10px;
+  width: 30%;
+}
+
+#pass {
+  margin-right: 10px;
+  width: 30%;
+}
+
+#btn-enter {
+  width: 40%;
+  padding: 0;
+}
+
+#trybewarts-header-title {
+  color: white;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+main {
+  display: flex;
+  margin-left: 5px;
+}
+
+main form {
+  display: flex;
+}
+
+#form-avaliacao-title {
+  color: white;
+  text-align: center;
+  margin: auto;
+  font-weight: 700;
+  padding: auto;
+}
+
+#evaluation-form {
+  width: 675px;
+  flex-direction: column;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+  margin: auto;
+}
+
+.user-info {
+  flex-wrap: wrap;
+  display: flex;
+  padding: 5px;
+  margin: 10px 0;
+}
+
+.inputs {
+  margin: 2px;
+}
+
+#input-name {
+  width: 49%;
+}
+
+#input-lastname {
+  width: 49%;
+}
+
+#input-email {
+  width: 49%;
+}
+
+.house {
+  color: black;
+}
+
+#house {
+  width: 49%;
+  margin: 2px;
+}
+
+label {
+  font-size: 16px;
+  margin-top: 7px;
+}
+
+.family-container {
+  width: 200px;
+  margin-left: 10px;
+}
+
+.checkbox-cointainer {
+  display: flex;
+  flex-flow: row wrap;
+  flex-direction: column;
+  height: 80px;
+}
+
+.container-radio-checkbox {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.rate-container {
+  margin-bottom: 10px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 2px;
+}
+
+footer {
+  background-color: rgb(50, 167, 145);
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  opacity: 0.9;
+}
+
+#textarea {
+  margin-left: 10px;
+  resize: none;
+}
+
+.textarea {
+  margin-left: 10px;
+}
+
+#counter {
+  margin-left: 10px;
+  font-weight: 700;
+  text-align: end;
+}
+
+.agree-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+}
+
+.button-submit {
+  display: flex;
+  justify-content: center;
+}
+
+#submit-btn {
+  width: 70%;
+  margin: 5px 0 25px;
+}
+
+#label-infos {
+  margin-right: 5px;
+}
