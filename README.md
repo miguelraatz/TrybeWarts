@@ -2,7 +2,7 @@ Trybewarts
 computer Projeto
 Projeto desenvolvido no módulo de fundamentos do curso da Trybe, onde foi desenvolvido uma página de formulário.
 
-rocket Tecnologias
+:rocket: Tecnologias
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 HTML
